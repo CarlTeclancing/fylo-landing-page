@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header{
+  width: 95%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 150px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  margin: 15px;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  margin: 15px;
+  color: rgb(0, 132, 255);
+}
+main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+aside, section{
+  width: 50%;
+}
+@media screen and (max-width: 660px){
+  .header{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    width: 100px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    margin: 10px;
+  }
+  a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    margin: 10px;
+    color: rgb(0, 132, 255);
+  }
+}
