@@ -9,9 +9,9 @@ export default function Footer(){
     return(
         <div className="footer">
             <div className="same">
-                <img src={logo} alt="" className='logo' />
-                <img src={phone} alt="" />
-                <img src={email} alt="" />
+                <img  src={logo} alt="" className='logo wh' />
+                <img className="wh" src={phone} alt="" />
+                <img className="wh" src={email} alt="" />
             </div>
             <div className="same"></div>
             <div className="same"></div>
