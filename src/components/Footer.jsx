@@ -10,8 +10,11 @@ export default function Footer(){
         <div className="footer">
             <div className="same">
                 <img  src={logo} alt="" className='logo wh' />
-                <img className="wh" src={phone} alt="" />
-                <img className="wh" src={email} alt="" />
+                <div className="w-1"><img className="wh" src={phone} alt="" /> <span>Phone: 222 222 222</span></div>
+                <div className="w-1"><img className="wh" src={email} alt="" /> <span>Example@fylo.com</span></div>
+                <div className="w-1"></div>
+                
+                
             </div>
             <div className="same"></div>
             <div className="same"></div>
