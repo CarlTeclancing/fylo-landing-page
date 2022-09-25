@@ -11,9 +11,10 @@ body{
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 .App{
-  width: 1440px;
+  width: 1220px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -155,6 +156,7 @@ span{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  color: white;
 }
 .wh{
   color: white;
@@ -166,7 +168,11 @@ span{
   height: 80%;
   width: 200px;
   margin: 20px;
-
+  color: white;
+}
+.same a{
+  color: white;
+  font-size: 1rem;
 }
 .w-1{
   width: 100%;
@@ -174,6 +180,7 @@ span{
   height: 30px;
   align-items: center;
 }
+
 @media screen and (max-width: 660px){
   .App{
     width: 100%;
@@ -181,6 +188,7 @@ span{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
   .header{
     width: 90%;
@@ -206,7 +214,7 @@ span{
     color: rgb(0, 132, 255);
   }
   aside, section{
-    width: 350px;
+    width: 550px;
     height: auto;
     padding: 5px;
     display: flex;
@@ -215,7 +223,7 @@ span{
     flex-direction: column;
   }
   .img-1{
-    width: 350px;
+    width: 550px;
   }
   input{
     width: 350px;
@@ -230,5 +238,8 @@ span{
     background-color: rgb(0, 132, 255);
     color: white;
     height: 35px;
+  }
+  main{
+    flex-wrap: wrap;
   }
 }
